@@ -1,0 +1,6 @@
+module ExpyTableView {
+  umbrella header "ExpyTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

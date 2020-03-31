@@ -1,0 +1,6 @@
+module Pods_TestSpatialite {
+  umbrella header "Pods-TestSpatialite-umbrella.h"
+
+  export *
+  module * { export * }
+}

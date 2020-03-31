@@ -1,0 +1,6 @@
+module EFColorPicker {
+  umbrella header "EFColorPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

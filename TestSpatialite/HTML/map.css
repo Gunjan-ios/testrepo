@@ -1,0 +1,41 @@
+/*html,*/
+/*body {*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
+/**/
+/*.map {*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*}*/
+/**/
+/*.ol-zoom {*/
+/*    top: unset;*/
+/*    bottom: .5em;*/
+/*}*/
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.map {
+    height: 100%;
+    width: 100%;
+}
+
+.ol-zoom {
+    top: unset;
+    bottom: .5em;
+}
+
+.ol-rotate{
+    top:unset;
+    bottom:4.5em;
+    left:.5em;
+    right: unset;
+    transition:opacity .25s linear,visibility 0s linear

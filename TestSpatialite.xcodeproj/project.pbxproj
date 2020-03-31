@@ -1,0 +1,1130 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B7E7A6B26C50C3E93AC6169 /* libPods-TestSpatialite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B52DC9F4F63B98A627333E4 /* libPods-TestSpatialite.a */; };
+		53002F6E23F519F6007AB404 /* VerificationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53002F6D23F519F6007AB404 /* VerificationDetailViewController.swift */; };
+		53002F7023F57516007AB404 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53002F6F23F57516007AB404 /* AssetsLibrary.framework */; };
+		5317B8A623FD319200C39E7B /* LocateOnMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5317B8A523FD319200C39E7B /* LocateOnMapViewController.swift */; };
+		5317B8A823FD5C5A00C39E7B /* VerificationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5317B8A723FD5C5A00C39E7B /* VerificationData.swift */; };
+		5325065F23E440AC00B42014 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325065E23E440AC00B42014 /* CustomLabel.swift */; };
+		5333C517243220A600F4329B /* ol.css in Resources */ = {isa = PBXBuildFile; fileRef = 5333C516243220A600F4329B /* ol.css */; };
+		53364DC123E1A1EC00133E65 /* InspectionFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53364DC023E1A1EC00133E65 /* InspectionFormViewController.swift */; };
+		533952FD2404F76500E80763 /* CustomTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533952FC2404F76500E80763 /* CustomTap.swift */; };
+		53568FFA23EAC24C00AE71A4 /* GISImageDataTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53568FF923EAC24C00AE71A4 /* GISImageDataTypeView.swift */; };
+		53568FFC23EAC3C200AE71A4 /* GISDownloadedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53568FFB23EAC3C100AE71A4 /* GISDownloadedImage.swift */; };
+		53568FFE23EAC63100AE71A4 /* CustomButtonImageOrDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53568FFD23EAC63100AE71A4 /* CustomButtonImageOrDocument.swift */; };
+		539D48A023E83E4600ABF1AA /* MarginSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539D489F23E83E4600ABF1AA /* MarginSelectView.swift */; };
+		53BD9CD723FBE822006E1858 /* InputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BD9CD623FBE822006E1858 /* InputTextField.swift */; };
+		53BF810323FFA5470011C251 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BF810223FFA5470011C251 /* Extension.swift */; };
+		53C112D923F2A5510003DD46 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C112D823F2A5510003DD46 /* PreviewViewController.swift */; };
+		53C112DD23F2BC3B0003DD46 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C112DC23F2BC3B0003DD46 /* AlertView.swift */; };
+		53CAA18E23F15BBF00AA7807 /* Layer_MultiMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CAA18D23F15BBF00AA7807 /* Layer_MultiMedia.swift */; };
+		F409FFFD22F84E0000414CC0 /* KMLeftPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F409FFF922F84E0000414CC0 /* KMLeftPanelViewController.m */; };
+		F409FFFE22F84E0000414CC0 /* KMLeftPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F409FFFA22F84E0000414CC0 /* KMLeftPanelViewController.xib */; };
+		F409FFFF22F84E0000414CC0 /* KMNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F409FFFB22F84E0000414CC0 /* KMNavigationViewController.m */; };
+		F40BEEBF230682A400F94886 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F40BEEBE230682A400F94886 /* SF-Pro-Text-Semibold.otf */; };
+		F40E9FEE23C08BA7006C83B4 /* map.css in Resources */ = {isa = PBXBuildFile; fileRef = F40E9FEA23C08BA7006C83B4 /* map.css */; };
+		F40E9FEF23C08BA7006C83B4 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F40E9FEB23C08BA7006C83B4 /* index.html */; };
+		F40E9FF023C08BA7006C83B4 /* ol.js in Resources */ = {isa = PBXBuildFile; fileRef = F40E9FEC23C08BA7006C83B4 /* ol.js */; };
+		F40E9FF123C08BA7006C83B4 /* map.js in Resources */ = {isa = PBXBuildFile; fileRef = F40E9FED23C08BA7006C83B4 /* map.js */; };
+		F41084282313D6B7005C661E /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F41084272313D6B6005C661E /* SF-Pro-Text-Medium.otf */; };
+		F410D1D222F01EC900BB2295 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F410D1D122F01EC900BB2295 /* WebKit.framework */; };
+		F410D1E322F05B6000BB2295 /* GISAddLayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F410D1E122F05B6000BB2295 /* GISAddLayersViewController.m */; };
+		F410D1E422F05B6000BB2295 /* GISAddLayersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F410D1E222F05B6000BB2295 /* GISAddLayersViewController.xib */; };
+		F412DA3C233CE8D9005B3A75 /* GISdb.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = F412DA3B233CE8D9005B3A75 /* GISdb.sqlite */; };
+		F417F8D92421E5D100749382 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F417F8D82421E5D100749382 /* SF-Pro-Text-Bold.otf */; };
+		F423DF8D23FAAAD2009EB957 /* VideoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F423DF8C23FAAAD2009EB957 /* VideoHelper.swift */; };
+		F4281C8F23BC6FFA00316FA3 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4281C8E23BC6FF900316FA3 /* CustomButton.swift */; };
+		F428EDAD22EED5F400F36446 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F428EDAC22EED5F400F36446 /* CFNetwork.framework */; };
+		F428EDAF22EED5FC00F36446 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F428EDAE22EED5FC00F36446 /* CoreFoundation.framework */; };
+		F428EDB122EED60400F36446 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F428EDB022EED60400F36446 /* MobileCoreServices.framework */; };
+		F428EDB322EED60C00F36446 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F428EDB222EED60C00F36446 /* CoreGraphics.framework */; };
+		F428EDB522EED61300F36446 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F428EDB422EED61300F36446 /* QuartzCore.framework */; };
+		F428EDB722EED88C00F36446 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F428EDB622EED88B00F36446 /* Accelerate.framework */; };
+		F432587023E7F5B900DAEC4F /* KhadiUnitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F432586F23E7F5B800DAEC4F /* KhadiUnitCollectionViewCell.swift */; };
+		F432587223E8205C00DAEC4F /* CustomButtonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F432587123E8205C00DAEC4F /* CustomButtonData.swift */; };
+		F43CD27023EC098A006F3248 /* StretchableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43CD26D23EC098A006F3248 /* StretchableHeaderView.swift */; };
+		F43CD27123EC098A006F3248 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43CD26E23EC098A006F3248 /* SegmentedControl.swift */; };
+		F43CD27223EC098A006F3248 /* SegmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43CD26F23EC098A006F3248 /* SegmentedViewController.swift */; };
+		F43CD27623EC1286006F3248 /* PendingKhadiStoresListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43CD27523EC1286006F3248 /* PendingKhadiStoresListTableViewController.swift */; };
+		F43CD27923EC34BA006F3248 /* CustomStoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43CD27823EC34BA006F3248 /* CustomStoreTableViewCell.swift */; };
+		F4457E09234B6901001E6BD1 /* SingletonViewControllerClassSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4457E08234B6901001E6BD1 /* SingletonViewControllerClassSwift.swift */; };
+		F4490ACD23BF46D20018A6F0 /* GISViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4490ACC23BF46D10018A6F0 /* GISViewController.swift */; };
+		F459C8952301A2FC0094E50C /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F459C8942301A2FC0094E50C /* SF-Pro-Text-Regular.otf */; };
+		F45B13BD22E9AD4B002D9188 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45B13BC22E9AD4B002D9188 /* CoreLocation.framework */; };
+		F461089D23BB1EEA0059BCDC /* CustomInputFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F461089C23BB1EE90059BCDC /* CustomInputFieldView.swift */; };
+		F461089F23BB23270059BCDC /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F461089E23BB23270059BCDC /* CustomTextField.swift */; };
+		F46108A123BB24FA0059BCDC /* GenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46108A023BB24FA0059BCDC /* GenderView.swift */; };
+		F46108A423BB47640059BCDC /* DPOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46108A323BB47640059BCDC /* DPOTPView.swift */; };
+		F46108A623BB47970059BCDC /* CustomOTPTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46108A523BB47970059BCDC /* CustomOTPTypeView.swift */; };
+		F46108A823BB59080059BCDC /* CustomInputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46108A723BB59080059BCDC /* CustomInputTextView.swift */; };
+		F46108AA23BB59320059BCDC /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46108A923BB59320059BCDC /* CustomTextView.swift */; };
+		F46A189723BA07DA0053E224 /* KVICAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F46A189623BA07D90053E224 /* KVICAppDelegate.m */; };
+		F46A189B23BA28A00053E224 /* KVICApplicationFormIndividualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46A189A23BA28A00053E224 /* KVICApplicationFormIndividualViewController.swift */; };
+		F46A189D23BA32A00053E224 /* CustomTextFieldForAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46A189C23BA32A00053E224 /* CustomTextFieldForAttribute.swift */; };
+		F46A189F23BA33A50053E224 /* CustomComboBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46A189E23BA33A50053E224 /* CustomComboBoxView.swift */; };
+		F46A18A123BA35740053E224 /* DropDownPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46A18A023BA35740053E224 /* DropDownPickerView.swift */; };
+		F4765B69231D4F1900ECB4D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4765B68231D4F1900ECB4D5 /* Assets.xcassets */; };
+		F477656222E82608000E1FCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F477656122E82608000E1FCC /* ViewController.m */; };
+		F477656522E82608000E1FCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F477656322E82608000E1FCC /* Main.storyboard */; };
+		F477656A22E82612000E1FCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F477656822E82612000E1FCC /* LaunchScreen.storyboard */; };
+		F477656D22E82612000E1FCC /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = F477656C22E82612000E1FCC /* main.mm */; };
+		F477657822E839ED000E1FCC /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F477657722E839ED000E1FCC /* libsqlite3.0.tbd */; };
+		F4950E4A22EEC701007E41A4 /* GISMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4950E4922EEC701007E41A4 /* GISMainViewController.m */; };
+		F4950E5622EECE88007E41A4 /* SingletonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F4950E5422EECE88007E41A4 /* SingletonClass.m */; };
+		F4950E6522EED1BC007E41A4 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4950E5A22EED1BC007E41A4 /* REFrostedViewController.m */; };
+		F4950E6622EED1BC007E41A4 /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4950E5F22EED1BC007E41A4 /* UIView+REFrostedViewController.m */; };
+		F4950E6722EED1BC007E41A4 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4950E6122EED1BC007E41A4 /* UIViewController+REFrostedViewController.m */; };
+		F4950E6822EED1BC007E41A4 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4950E6222EED1BC007E41A4 /* REFrostedContainerViewController.m */; };
+		F4950E6922EED1BC007E41A4 /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4950E6322EED1BC007E41A4 /* UIImage+REFrostedViewController.m */; };
+		F4950E6A22EED1BC007E41A4 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = F4950E6422EED1BC007E41A4 /* RECommonFunctions.m */; };
+		F4950E6E22EED314007E41A4 /* UIColor+ColorCatagory.m in Sources */ = {isa = PBXBuildFile; fileRef = F4950E6D22EED314007E41A4 /* UIColor+ColorCatagory.m */; };
+		F4BFD32422F1610700C626EA /* GISMapMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFD32322F1610700C626EA /* GISMapMainViewController.swift */; };
+		F4BFD32B22F173C300C626EA /* SingletonClassSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFD32622F173C300C626EA /* SingletonClassSwift.swift */; };
+		F4BFD32E22F173C300C626EA /* GeneralConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFD32922F173C300C626EA /* GeneralConstants.swift */; };
+		F4BFD34A22F1740C00C626EA /* LGSideMenuHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BFD33822F1740C00C626EA /* LGSideMenuHelper.m */; };
+		F4BFD34B22F1740C00C626EA /* LGSideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BFD33A22F1740C00C626EA /* LGSideMenuView.m */; };
+		F4BFD34C22F1740C00C626EA /* LGSideMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BFD33B22F1740C00C626EA /* LGSideMenuSegue.m */; };
+		F4BFD34D22F1740C00C626EA /* LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BFD33C22F1740C00C626EA /* LGSideMenuController.m */; };
+		F4BFD34E22F1740C00C626EA /* LGSideMenuGesturesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BFD33D22F1740C00C626EA /* LGSideMenuGesturesHandler.m */; };
+		F4BFD34F22F1740C00C626EA /* UIViewController+LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BFD33E22F1740C00C626EA /* UIViewController+LGSideMenuController.m */; };
+		F4BFD35022F1740C00C626EA /* LGSideMenuBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BFD34022F1740C00C626EA /* LGSideMenuBorderView.m */; };
+		F4BFD35122F1740C00C626EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFD34222F1740C00C626EA /* ViewController.swift */; };
+		F4BFD35222F1740C00C626EA /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFD34322F1740C00C626EA /* LeftViewController.swift */; };
+		F4BFD35322F1740C00C626EA /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFD34422F1740C00C626EA /* OtherViewController.swift */; };
+		F4BFD35422F1740C00C626EA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFD34522F1740C00C626EA /* MainViewController.swift */; };
+		F4BFD35522F1740C00C626EA /* ChooseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFD34622F1740C00C626EA /* ChooseNavigationController.swift */; };
+		F4BFD35622F1740C00C626EA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFD34722F1740C00C626EA /* TableViewController.swift */; };
+		F4BFD35722F1740C00C626EA /* LeftViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFD34822F1740C00C626EA /* LeftViewCell.swift */; };
+		F4BFD35822F1740C00C626EA /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFD34922F1740C00C626EA /* NavigationController.swift */; };
+		F4BFD35A22F1763500C626EA /* GISSplashScreenViewControllerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFD35922F1763500C626EA /* GISSplashScreenViewControllerSwift.swift */; };
+		F4C4F36723E5766B00ACC3F5 /* LoginUserSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C4F36623E5766B00ACC3F5 /* LoginUserSelectionViewController.swift */; };
+		F4C4F36923E579B300ACC3F5 /* CustomImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C4F36823E579B300ACC3F5 /* CustomImageButton.swift */; };
+		F4C4F36B23E5907200ACC3F5 /* GISSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C4F36A23E5907200ACC3F5 /* GISSignInViewController.swift */; };
+		F4C4F37A23E5A41200ACC3F5 /* HHTabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C4F37623E5A41200ACC3F5 /* HHTabButton.swift */; };
+		F4C4F37B23E5A41200ACC3F5 /* HHTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C4F37723E5A41200ACC3F5 /* HHTabBarView.swift */; };
+		F4C4F37C23E5A41200ACC3F5 /* HHButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C4F37823E5A41200ACC3F5 /* HHButton+Extension.swift */; };
+		F4C4F37D23E5A41200ACC3F5 /* HHTabLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C4F37923E5A41200ACC3F5 /* HHTabLabel.swift */; };
+		F4C64F9323FD4510007A5A19 /* MarkAsnottracebleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C64F9223FD4510007A5A19 /* MarkAsnottracebleView.swift */; };
+		F4CA3EA923EA84EF0026F165 /* KhadiProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA3EA823EA84EF0026F165 /* KhadiProductView.swift */; };
+		F4CA3EAB23EA97530026F165 /* KhadiStoreListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA3EAA23EA97530026F165 /* KhadiStoreListViewController.swift */; };
+		F4D89D6E2334AB6F00BC1016 /* GISWebServicesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D89D6D2334AB6F00BC1016 /* GISWebServicesManager.swift */; };
+		F4DB4A2F23F6DF10002B673E /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DB4A2E23F6DF10002B673E /* DatabaseManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B52DC9F4F63B98A627333E4 /* libPods-TestSpatialite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestSpatialite.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FDF275412372F966446D403 /* Pods-TestSpatialite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSpatialite.release.xcconfig"; path = "Target Support Files/Pods-TestSpatialite/Pods-TestSpatialite.release.xcconfig"; sourceTree = "<group>"; };
+		53002F6D23F519F6007AB404 /* VerificationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationDetailViewController.swift; sourceTree = "<group>"; };
+		53002F6F23F57516007AB404 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		5317B8A523FD319200C39E7B /* LocateOnMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateOnMapViewController.swift; sourceTree = "<group>"; };
+		5317B8A723FD5C5A00C39E7B /* VerificationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationData.swift; sourceTree = "<group>"; };
+		5325065E23E440AC00B42014 /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		5333C516243220A600F4329B /* ol.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ol.css; sourceTree = "<group>"; };
+		53364DC023E1A1EC00133E65 /* InspectionFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectionFormViewController.swift; sourceTree = "<group>"; };
+		533952FC2404F76500E80763 /* CustomTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTap.swift; sourceTree = "<group>"; };
+		53568FF923EAC24C00AE71A4 /* GISImageDataTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GISImageDataTypeView.swift; sourceTree = "<group>"; };
+		53568FFB23EAC3C100AE71A4 /* GISDownloadedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GISDownloadedImage.swift; sourceTree = "<group>"; };
+		53568FFD23EAC63100AE71A4 /* CustomButtonImageOrDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtonImageOrDocument.swift; sourceTree = "<group>"; };
+		539D489F23E83E4600ABF1AA /* MarginSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarginSelectView.swift; sourceTree = "<group>"; };
+		53AD8D45240641AA00346C10 /* libJGProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libJGProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		53BD9CD623FBE822006E1858 /* InputTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputTextField.swift; sourceTree = "<group>"; };
+		53BF810223FFA5470011C251 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		53C112D823F2A5510003DD46 /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		53C112DC23F2BC3B0003DD46 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		53CAA18D23F15BBF00AA7807 /* Layer_MultiMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layer_MultiMedia.swift; sourceTree = "<group>"; };
+		DC5D81AEBBFB733758024695 /* Pods-TestSpatialite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSpatialite.debug.xcconfig"; path = "Target Support Files/Pods-TestSpatialite/Pods-TestSpatialite.debug.xcconfig"; sourceTree = "<group>"; };
+		F409FFF822F84E0000414CC0 /* KMNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMNavigationViewController.h; sourceTree = "<group>"; };
+		F409FFF922F84E0000414CC0 /* KMLeftPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLeftPanelViewController.m; sourceTree = "<group>"; };
+		F409FFFA22F84E0000414CC0 /* KMLeftPanelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KMLeftPanelViewController.xib; sourceTree = "<group>"; };
+		F409FFFB22F84E0000414CC0 /* KMNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMNavigationViewController.m; sourceTree = "<group>"; };
+		F409FFFC22F84E0000414CC0 /* KMLeftPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLeftPanelViewController.h; sourceTree = "<group>"; };
+		F40BEEBE230682A400F94886 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		F40E9FEA23C08BA7006C83B4 /* map.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = map.css; sourceTree = "<group>"; };
+		F40E9FEB23C08BA7006C83B4 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		F40E9FEC23C08BA7006C83B4 /* ol.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ol.js; sourceTree = "<group>"; };
+		F40E9FED23C08BA7006C83B4 /* map.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = map.js; sourceTree = "<group>"; };
+		F41084272313D6B6005C661E /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		F410D1D122F01EC900BB2295 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		F410D1E022F05B6000BB2295 /* GISAddLayersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GISAddLayersViewController.h; sourceTree = "<group>"; };
+		F410D1E122F05B6000BB2295 /* GISAddLayersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GISAddLayersViewController.m; sourceTree = "<group>"; };
+		F410D1E222F05B6000BB2295 /* GISAddLayersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GISAddLayersViewController.xib; sourceTree = "<group>"; };
+		F410D1E522F06AC900BB2295 /* GISPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GISPrefixHeader.pch; sourceTree = "<group>"; };
+		F412DA3B233CE8D9005B3A75 /* GISdb.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = GISdb.sqlite; sourceTree = "<group>"; };
+		F417F8D82421E5D100749382 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		F423DF8C23FAAAD2009EB957 /* VideoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoHelper.swift; sourceTree = "<group>"; };
+		F4281C8E23BC6FF900316FA3 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		F428EDAC22EED5F400F36446 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F428EDAE22EED5FC00F36446 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		F428EDB022EED60400F36446 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F428EDB222EED60C00F36446 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F428EDB422EED61300F36446 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F428EDB622EED88B00F36446 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		F432586F23E7F5B800DAEC4F /* KhadiUnitCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KhadiUnitCollectionViewCell.swift; sourceTree = "<group>"; };
+		F432587123E8205C00DAEC4F /* CustomButtonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtonData.swift; sourceTree = "<group>"; };
+		F43CD26D23EC098A006F3248 /* StretchableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StretchableHeaderView.swift; sourceTree = "<group>"; };
+		F43CD26E23EC098A006F3248 /* SegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
+		F43CD26F23EC098A006F3248 /* SegmentedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedViewController.swift; sourceTree = "<group>"; };
+		F43CD27523EC1286006F3248 /* PendingKhadiStoresListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingKhadiStoresListTableViewController.swift; sourceTree = "<group>"; };
+		F43CD27823EC34BA006F3248 /* CustomStoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStoreTableViewCell.swift; sourceTree = "<group>"; };
+		F4457E08234B6901001E6BD1 /* SingletonViewControllerClassSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonViewControllerClassSwift.swift; sourceTree = "<group>"; };
+		F4490ACC23BF46D10018A6F0 /* GISViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GISViewController.swift; sourceTree = "<group>"; };
+		F459C8942301A2FC0094E50C /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		F45B13BC22E9AD4B002D9188 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F461089C23BB1EE90059BCDC /* CustomInputFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomInputFieldView.swift; sourceTree = "<group>"; };
+		F461089E23BB23270059BCDC /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		F46108A023BB24FA0059BCDC /* GenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderView.swift; sourceTree = "<group>"; };
+		F46108A323BB47640059BCDC /* DPOTPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPOTPView.swift; sourceTree = "<group>"; };
+		F46108A523BB47970059BCDC /* CustomOTPTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOTPTypeView.swift; sourceTree = "<group>"; };
+		F46108A723BB59080059BCDC /* CustomInputTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomInputTextView.swift; sourceTree = "<group>"; };
+		F46108A923BB59320059BCDC /* CustomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		F46A189523BA07D90053E224 /* KVICAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVICAppDelegate.h; sourceTree = "<group>"; };
+		F46A189623BA07D90053E224 /* KVICAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVICAppDelegate.m; sourceTree = "<group>"; };
+		F46A189A23BA28A00053E224 /* KVICApplicationFormIndividualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVICApplicationFormIndividualViewController.swift; sourceTree = "<group>"; };
+		F46A189C23BA32A00053E224 /* CustomTextFieldForAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextFieldForAttribute.swift; sourceTree = "<group>"; };
+		F46A189E23BA33A50053E224 /* CustomComboBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComboBoxView.swift; sourceTree = "<group>"; };
+		F46A18A023BA35740053E224 /* DropDownPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownPickerView.swift; sourceTree = "<group>"; };
+		F4765B68231D4F1900ECB4D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F477655A22E82608000E1FCC /* TestSpatialite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSpatialite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F477656022E82608000E1FCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F477656122E82608000E1FCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F477656422E82608000E1FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F477656922E82612000E1FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F477656B22E82612000E1FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F477656C22E82612000E1FCC /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		F477657722E839ED000E1FCC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		F4950E4822EEC701007E41A4 /* GISMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GISMainViewController.h; sourceTree = "<group>"; };
+		F4950E4922EEC701007E41A4 /* GISMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GISMainViewController.m; sourceTree = "<group>"; };
+		F4950E4C22EECCB1007E41A4 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		F4950E5422EECE88007E41A4 /* SingletonClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonClass.m; sourceTree = "<group>"; };
+		F4950E5522EECE88007E41A4 /* SingletonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonClass.h; sourceTree = "<group>"; };
+		F4950E5922EED1BC007E41A4 /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+REFrostedViewController.h"; sourceTree = "<group>"; };
+		F4950E5A22EED1BC007E41A4 /* REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedViewController.m; sourceTree = "<group>"; };
+		F4950E5B22EED1BC007E41A4 /* UIView+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+REFrostedViewController.h"; sourceTree = "<group>"; };
+		F4950E5C22EED1BC007E41A4 /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedContainerViewController.h; sourceTree = "<group>"; };
+		F4950E5D22EED1BC007E41A4 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		F4950E5E22EED1BC007E41A4 /* UIImage+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+REFrostedViewController.h"; sourceTree = "<group>"; };
+		F4950E5F22EED1BC007E41A4 /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
+		F4950E6022EED1BC007E41A4 /* REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedViewController.h; sourceTree = "<group>"; };
+		F4950E6122EED1BC007E41A4 /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+REFrostedViewController.m"; sourceTree = "<group>"; };
+		F4950E6222EED1BC007E41A4 /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedContainerViewController.m; sourceTree = "<group>"; };
+		F4950E6322EED1BC007E41A4 /* UIImage+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+REFrostedViewController.m"; sourceTree = "<group>"; };
+		F4950E6422EED1BC007E41A4 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		F4950E6C22EED314007E41A4 /* UIColor+ColorCatagory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorCatagory.h"; sourceTree = "<group>"; };
+		F4950E6D22EED314007E41A4 /* UIColor+ColorCatagory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorCatagory.m"; sourceTree = "<group>"; };
+		F49AB46A2317E33F00964D73 /* TestSpatialite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestSpatialite.entitlements; sourceTree = "<group>"; };
+		F4BFD32222F1610600C626EA /* TestSpatialite-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestSpatialite-Bridging-Header.h"; sourceTree = "<group>"; };
+		F4BFD32322F1610700C626EA /* GISMapMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GISMapMainViewController.swift; sourceTree = "<group>"; };
+		F4BFD32622F173C300C626EA /* SingletonClassSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonClassSwift.swift; sourceTree = "<group>"; };
+		F4BFD32922F173C300C626EA /* GeneralConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralConstants.swift; sourceTree = "<group>"; };
+		F4BFD33322F1740C00C626EA /* LGSideMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuSegue.h; sourceTree = "<group>"; };
+		F4BFD33422F1740C00C626EA /* LGSideMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuView.h; sourceTree = "<group>"; };
+		F4BFD33522F1740C00C626EA /* LGSideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuController.h; sourceTree = "<group>"; };
+		F4BFD33622F1740C00C626EA /* LGSideMenuGesturesHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuGesturesHandler.h; sourceTree = "<group>"; };
+		F4BFD33722F1740C00C626EA /* LGSideMenuBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuBorderView.h; sourceTree = "<group>"; };
+		F4BFD33822F1740C00C626EA /* LGSideMenuHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuHelper.m; sourceTree = "<group>"; };
+		F4BFD33922F1740C00C626EA /* UIViewController+LGSideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LGSideMenuController.h"; sourceTree = "<group>"; };
+		F4BFD33A22F1740C00C626EA /* LGSideMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuView.m; sourceTree = "<group>"; };
+		F4BFD33B22F1740C00C626EA /* LGSideMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuSegue.m; sourceTree = "<group>"; };
+		F4BFD33C22F1740C00C626EA /* LGSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuController.m; sourceTree = "<group>"; };
+		F4BFD33D22F1740C00C626EA /* LGSideMenuGesturesHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuGesturesHandler.m; sourceTree = "<group>"; };
+		F4BFD33E22F1740C00C626EA /* UIViewController+LGSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LGSideMenuController.m"; sourceTree = "<group>"; };
+		F4BFD33F22F1740C00C626EA /* LGSideMenuHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuHelper.h; sourceTree = "<group>"; };
+		F4BFD34022F1740C00C626EA /* LGSideMenuBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuBorderView.m; sourceTree = "<group>"; };
+		F4BFD34222F1740C00C626EA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4BFD34322F1740C00C626EA /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		F4BFD34422F1740C00C626EA /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		F4BFD34522F1740C00C626EA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F4BFD34622F1740C00C626EA /* ChooseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseNavigationController.swift; sourceTree = "<group>"; };
+		F4BFD34722F1740C00C626EA /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F4BFD34822F1740C00C626EA /* LeftViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewCell.swift; sourceTree = "<group>"; };
+		F4BFD34922F1740C00C626EA /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		F4BFD35922F1763500C626EA /* GISSplashScreenViewControllerSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GISSplashScreenViewControllerSwift.swift; sourceTree = "<group>"; };
+		F4C4F36623E5766B00ACC3F5 /* LoginUserSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserSelectionViewController.swift; sourceTree = "<group>"; };
+		F4C4F36823E579B300ACC3F5 /* CustomImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageButton.swift; sourceTree = "<group>"; };
+		F4C4F36A23E5907200ACC3F5 /* GISSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GISSignInViewController.swift; sourceTree = "<group>"; };
+		F4C4F37623E5A41200ACC3F5 /* HHTabButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HHTabButton.swift; sourceTree = "<group>"; };
+		F4C4F37723E5A41200ACC3F5 /* HHTabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HHTabBarView.swift; sourceTree = "<group>"; };
+		F4C4F37823E5A41200ACC3F5 /* HHButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HHButton+Extension.swift"; sourceTree = "<group>"; };
+		F4C4F37923E5A41200ACC3F5 /* HHTabLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HHTabLabel.swift; sourceTree = "<group>"; };
+		F4C64F9223FD4510007A5A19 /* MarkAsnottracebleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkAsnottracebleView.swift; sourceTree = "<group>"; };
+		F4CA3EA823EA84EF0026F165 /* KhadiProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhadiProductView.swift; sourceTree = "<group>"; };
+		F4CA3EAA23EA97530026F165 /* KhadiStoreListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhadiStoreListViewController.swift; sourceTree = "<group>"; };
+		F4D89D6D2334AB6F00BC1016 /* GISWebServicesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GISWebServicesManager.swift; sourceTree = "<group>"; };
+		F4DB4A2E23F6DF10002B673E /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F477655722E82608000E1FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53002F7023F57516007AB404 /* AssetsLibrary.framework in Frameworks */,
+				F410D1D222F01EC900BB2295 /* WebKit.framework in Frameworks */,
+				F428EDB722EED88C00F36446 /* Accelerate.framework in Frameworks */,
+				F428EDB522EED61300F36446 /* QuartzCore.framework in Frameworks */,
+				F428EDB322EED60C00F36446 /* CoreGraphics.framework in Frameworks */,
+				F428EDB122EED60400F36446 /* MobileCoreServices.framework in Frameworks */,
+				F428EDAF22EED5FC00F36446 /* CoreFoundation.framework in Frameworks */,
+				F428EDAD22EED5F400F36446 /* CFNetwork.framework in Frameworks */,
+				F45B13BD22E9AD4B002D9188 /* CoreLocation.framework in Frameworks */,
+				F477657822E839ED000E1FCC /* libsqlite3.0.tbd in Frameworks */,
+				1B7E7A6B26C50C3E93AC6169 /* libPods-TestSpatialite.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B76ED8D8B784FEDA62005D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53AD8D45240641AA00346C10 /* libJGProgressHUD.a */,
+				53002F6F23F57516007AB404 /* AssetsLibrary.framework */,
+				F410D1D122F01EC900BB2295 /* WebKit.framework */,
+				F428EDB622EED88B00F36446 /* Accelerate.framework */,
+				F428EDB422EED61300F36446 /* QuartzCore.framework */,
+				F428EDB222EED60C00F36446 /* CoreGraphics.framework */,
+				F428EDB022EED60400F36446 /* MobileCoreServices.framework */,
+				F428EDAE22EED5FC00F36446 /* CoreFoundation.framework */,
+				F428EDAC22EED5F400F36446 /* CFNetwork.framework */,
+				F45B13BC22E9AD4B002D9188 /* CoreLocation.framework */,
+				F477657722E839ED000E1FCC /* libsqlite3.0.tbd */,
+				2B52DC9F4F63B98A627333E4 /* libPods-TestSpatialite.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53364DBF23E1A1C200133E65 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F43CD27423EC121E006F3248 /* Khadi Store */,
+				F4C4F36A23E5907200ACC3F5 /* GISSignInViewController.swift */,
+				53364DC023E1A1EC00133E65 /* InspectionFormViewController.swift */,
+				5317B8A523FD319200C39E7B /* LocateOnMapViewController.swift */,
+				53002F6D23F519F6007AB404 /* VerificationDetailViewController.swift */,
+				53C112D823F2A5510003DD46 /* PreviewViewController.swift */,
+				F4C4F36623E5766B00ACC3F5 /* LoginUserSelectionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		857644B6006BFF5AB76B8037 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC5D81AEBBFB733758024695 /* Pods-TestSpatialite.debug.xcconfig */,
+				2FDF275412372F966446D403 /* Pods-TestSpatialite.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F409FFF622F84DE100414CC0 /* TestingClassesObjC */ = {
+			isa = PBXGroup;
+			children = (
+				F409FFF722F84E0000414CC0 /* Left Side Panel */,
+			);
+			path = TestingClassesObjC;
+			sourceTree = "<group>";
+		};
+		F409FFF722F84E0000414CC0 /* Left Side Panel */ = {
+			isa = PBXGroup;
+			children = (
+				F409FFF822F84E0000414CC0 /* KMNavigationViewController.h */,
+				F409FFF922F84E0000414CC0 /* KMLeftPanelViewController.m */,
+				F409FFFA22F84E0000414CC0 /* KMLeftPanelViewController.xib */,
+				F409FFFB22F84E0000414CC0 /* KMNavigationViewController.m */,
+				F409FFFC22F84E0000414CC0 /* KMLeftPanelViewController.h */,
+			);
+			path = "Left Side Panel";
+			sourceTree = "<group>";
+		};
+		F40E9FE923C08BA7006C83B4 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				F40E9FEA23C08BA7006C83B4 /* map.css */,
+				5333C516243220A600F4329B /* ol.css */,
+				F40E9FEB23C08BA7006C83B4 /* index.html */,
+				F40E9FEC23C08BA7006C83B4 /* ol.js */,
+				F40E9FED23C08BA7006C83B4 /* map.js */,
+			);
+			name = HTML;
+			path = TestSpatialite/HTML;
+			sourceTree = SOURCE_ROOT;
+		};
+		F410D1DC22F059D700BB2295 /* Add Layers */ = {
+			isa = PBXGroup;
+			children = (
+				F410D1E022F05B6000BB2295 /* GISAddLayersViewController.h */,
+				F410D1E122F05B6000BB2295 /* GISAddLayersViewController.m */,
+				F410D1E222F05B6000BB2295 /* GISAddLayersViewController.xib */,
+			);
+			path = "Add Layers";
+			sourceTree = "<group>";
+		};
+		F41A13FB22F4536000435146 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53CAA18D23F15BBF00AA7807 /* Layer_MultiMedia.swift */,
+				53568FFB23EAC3C100AE71A4 /* GISDownloadedImage.swift */,
+				5317B8A723FD5C5A00C39E7B /* VerificationData.swift */,
+				53BF810223FFA5470011C251 /* Extension.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F41A13FC22F45D8B00435146 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F43CD27723EC3498006F3248 /* CustomCell */,
+				F432587123E8205C00DAEC4F /* CustomButtonData.swift */,
+				F432586F23E7F5B800DAEC4F /* KhadiUnitCollectionViewCell.swift */,
+				F4C4F36823E579B300ACC3F5 /* CustomImageButton.swift */,
+				53568FFD23EAC63100AE71A4 /* CustomButtonImageOrDocument.swift */,
+				53C112DC23F2BC3B0003DD46 /* AlertView.swift */,
+				533952FC2404F76500E80763 /* CustomTap.swift */,
+				F4281C8E23BC6FF900316FA3 /* CustomButton.swift */,
+				5325065E23E440AC00B42014 /* CustomLabel.swift */,
+				F46108A923BB59320059BCDC /* CustomTextView.swift */,
+				F46108A723BB59080059BCDC /* CustomInputTextView.swift */,
+				F461089E23BB23270059BCDC /* CustomTextField.swift */,
+				53BD9CD623FBE822006E1858 /* InputTextField.swift */,
+				F461089C23BB1EE90059BCDC /* CustomInputFieldView.swift */,
+				F46A18A023BA35740053E224 /* DropDownPickerView.swift */,
+				53568FF923EAC24C00AE71A4 /* GISImageDataTypeView.swift */,
+				F46A189C23BA32A00053E224 /* CustomTextFieldForAttribute.swift */,
+				F46A189E23BA33A50053E224 /* CustomComboBoxView.swift */,
+				539D489F23E83E4600ABF1AA /* MarginSelectView.swift */,
+				F46108A023BB24FA0059BCDC /* GenderView.swift */,
+				F46108A523BB47970059BCDC /* CustomOTPTypeView.swift */,
+				F4CA3EA823EA84EF0026F165 /* KhadiProductView.swift */,
+				F4C64F9223FD4510007A5A19 /* MarkAsnottracebleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F41A13FF22F45EAE00435146 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				53364DBF23E1A1C200133E65 /* Controllers */,
+				F46A189923BA28660053E224 /* ApplicationForm */,
+				F46A189823BA27E00053E224 /* Splash */,
+				F4490ACB23BF46A90018A6F0 /* Map */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F423DF8B23FAAAAC009EB957 /* RecordVideo */ = {
+			isa = PBXGroup;
+			children = (
+				F423DF8C23FAAAD2009EB957 /* VideoHelper.swift */,
+			);
+			path = RecordVideo;
+			sourceTree = "<group>";
+		};
+		F43CD26C23EC0962006F3248 /* SegmentTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				F43CD26E23EC098A006F3248 /* SegmentedControl.swift */,
+				F43CD26F23EC098A006F3248 /* SegmentedViewController.swift */,
+				F43CD26D23EC098A006F3248 /* StretchableHeaderView.swift */,
+			);
+			path = SegmentTabbar;
+			sourceTree = "<group>";
+		};
+		F43CD27423EC121E006F3248 /* Khadi Store */ = {
+			isa = PBXGroup;
+			children = (
+				F4CA3EAA23EA97530026F165 /* KhadiStoreListViewController.swift */,
+				F43CD27523EC1286006F3248 /* PendingKhadiStoresListTableViewController.swift */,
+			);
+			path = "Khadi Store";
+			sourceTree = "<group>";
+		};
+		F43CD27723EC3498006F3248 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				F43CD27823EC34BA006F3248 /* CustomStoreTableViewCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		F4490ACB23BF46A90018A6F0 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				F4490ACC23BF46D10018A6F0 /* GISViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		F4528D2122FC31F700B967FA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F459C8932301A2D60094E50C /* SFPro */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F459C8932301A2D60094E50C /* SFPro */ = {
+			isa = PBXGroup;
+			children = (
+				F417F8D82421E5D100749382 /* SF-Pro-Text-Bold.otf */,
+				F41084272313D6B6005C661E /* SF-Pro-Text-Medium.otf */,
+				F40BEEBE230682A400F94886 /* SF-Pro-Text-Semibold.otf */,
+				F459C8942301A2FC0094E50C /* SF-Pro-Text-Regular.otf */,
+			);
+			path = SFPro;
+			sourceTree = "<group>";
+		};
+		F46108A223BB47490059BCDC /* DPOTP */ = {
+			isa = PBXGroup;
+			children = (
+				F46108A323BB47640059BCDC /* DPOTPView.swift */,
+			);
+			path = DPOTP;
+			sourceTree = "<group>";
+		};
+		F46A189823BA27E00053E224 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				F4BFD35922F1763500C626EA /* GISSplashScreenViewControllerSwift.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		F46A189923BA28660053E224 /* ApplicationForm */ = {
+			isa = PBXGroup;
+			children = (
+				F46A189A23BA28A00053E224 /* KVICApplicationFormIndividualViewController.swift */,
+			);
+			path = ApplicationForm;
+			sourceTree = "<group>";
+		};
+		F477655122E82608000E1FCC = {
+			isa = PBXGroup;
+			children = (
+				F477655C22E82608000E1FCC /* TestSpatialite */,
+				F477655B22E82608000E1FCC /* Products */,
+				857644B6006BFF5AB76B8037 /* Pods */,
+				1B76ED8D8B784FEDA62005D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F477655B22E82608000E1FCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F477655A22E82608000E1FCC /* TestSpatialite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F477655C22E82608000E1FCC /* TestSpatialite */ = {
+			isa = PBXGroup;
+			children = (
+				F46A189523BA07D90053E224 /* KVICAppDelegate.h */,
+				F46A189623BA07D90053E224 /* KVICAppDelegate.m */,
+				F4765B68231D4F1900ECB4D5 /* Assets.xcassets */,
+				F49AB46A2317E33F00964D73 /* TestSpatialite.entitlements */,
+				F4528D2122FC31F700B967FA /* Fonts */,
+				F4BFD32522F1737300C626EA /* Swift */,
+				F410D1DC22F059D700BB2295 /* Add Layers */,
+				F4950E5722EED199007E41A4 /* Other Libraries */,
+				F4950E4D22EECCF1007E41A4 /* Database */,
+				F4950E4B22EECC9D007E41A4 /* Common */,
+				F477656022E82608000E1FCC /* ViewController.h */,
+				F477656122E82608000E1FCC /* ViewController.m */,
+				F477656322E82608000E1FCC /* Main.storyboard */,
+				F477656822E82612000E1FCC /* LaunchScreen.storyboard */,
+				F477656B22E82612000E1FCC /* Info.plist */,
+				F477656C22E82612000E1FCC /* main.mm */,
+				F4950E4822EEC701007E41A4 /* GISMainViewController.h */,
+				F4950E4922EEC701007E41A4 /* GISMainViewController.m */,
+				F4BFD32322F1610700C626EA /* GISMapMainViewController.swift */,
+				F4BFD32222F1610600C626EA /* TestSpatialite-Bridging-Header.h */,
+			);
+			path = TestSpatialite;
+			sourceTree = "<group>";
+		};
+		F4950E4B22EECC9D007E41A4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F4950E5522EECE88007E41A4 /* SingletonClass.h */,
+				F4950E5422EECE88007E41A4 /* SingletonClass.m */,
+				F4950E4C22EECCB1007E41A4 /* Constant.h */,
+				F410D1E522F06AC900BB2295 /* GISPrefixHeader.pch */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F4950E4D22EECCF1007E41A4 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				F412DA3B233CE8D9005B3A75 /* GISdb.sqlite */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		F4950E5722EED199007E41A4 /* Other Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F423DF8B23FAAAAC009EB957 /* RecordVideo */,
+				F43CD26C23EC0962006F3248 /* SegmentTabbar */,
+				F4C4F37523E5A3E600ACC3F5 /* CustomTabbar */,
+				F40E9FE923C08BA7006C83B4 /* HTML */,
+				F46108A223BB47490059BCDC /* DPOTP */,
+				F409FFF622F84DE100414CC0 /* TestingClassesObjC */,
+				F4BFD33022F1740C00C626EA /* SideMenu */,
+				F4950E6B22EED314007E41A4 /* ColorCatagory */,
+				F4950E5822EED1BC007E41A4 /* REFrostedViewController */,
+			);
+			path = "Other Libraries";
+			sourceTree = "<group>";
+		};
+		F4950E5822EED1BC007E41A4 /* REFrostedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F4950E5922EED1BC007E41A4 /* UIViewController+REFrostedViewController.h */,
+				F4950E5A22EED1BC007E41A4 /* REFrostedViewController.m */,
+				F4950E5B22EED1BC007E41A4 /* UIView+REFrostedViewController.h */,
+				F4950E5C22EED1BC007E41A4 /* REFrostedContainerViewController.h */,
+				F4950E5D22EED1BC007E41A4 /* RECommonFunctions.h */,
+				F4950E5E22EED1BC007E41A4 /* UIImage+REFrostedViewController.h */,
+				F4950E5F22EED1BC007E41A4 /* UIView+REFrostedViewController.m */,
+				F4950E6022EED1BC007E41A4 /* REFrostedViewController.h */,
+				F4950E6122EED1BC007E41A4 /* UIViewController+REFrostedViewController.m */,
+				F4950E6222EED1BC007E41A4 /* REFrostedContainerViewController.m */,
+				F4950E6322EED1BC007E41A4 /* UIImage+REFrostedViewController.m */,
+				F4950E6422EED1BC007E41A4 /* RECommonFunctions.m */,
+			);
+			path = REFrostedViewController;
+			sourceTree = "<group>";
+		};
+		F4950E6B22EED314007E41A4 /* ColorCatagory */ = {
+			isa = PBXGroup;
+			children = (
+				F4950E6C22EED314007E41A4 /* UIColor+ColorCatagory.h */,
+				F4950E6D22EED314007E41A4 /* UIColor+ColorCatagory.m */,
+			);
+			path = ColorCatagory;
+			sourceTree = "<group>";
+		};
+		F4BFD32522F1737300C626EA /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				F4D89D6C2334AB2800BC1016 /* WebServices */,
+				F41A13FF22F45EAE00435146 /* ViewController */,
+				F41A13FC22F45D8B00435146 /* View */,
+				F41A13FB22F4536000435146 /* Model */,
+				F4BFD32922F173C300C626EA /* GeneralConstants.swift */,
+				F4BFD32622F173C300C626EA /* SingletonClassSwift.swift */,
+				F4457E08234B6901001E6BD1 /* SingletonViewControllerClassSwift.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		F4BFD33022F1740C00C626EA /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F4BFD33222F1740C00C626EA /* LGSideMenuController */,
+				F4BFD34122F1740C00C626EA /* OperatingControllers */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		F4BFD33222F1740C00C626EA /* LGSideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				F4BFD33322F1740C00C626EA /* LGSideMenuSegue.h */,
+				F4BFD33422F1740C00C626EA /* LGSideMenuView.h */,
+				F4BFD33522F1740C00C626EA /* LGSideMenuController.h */,
+				F4BFD33622F1740C00C626EA /* LGSideMenuGesturesHandler.h */,
+				F4BFD33722F1740C00C626EA /* LGSideMenuBorderView.h */,
+				F4BFD33822F1740C00C626EA /* LGSideMenuHelper.m */,
+				F4BFD33922F1740C00C626EA /* UIViewController+LGSideMenuController.h */,
+				F4BFD33A22F1740C00C626EA /* LGSideMenuView.m */,
+				F4BFD33B22F1740C00C626EA /* LGSideMenuSegue.m */,
+				F4BFD33C22F1740C00C626EA /* LGSideMenuController.m */,
+				F4BFD33D22F1740C00C626EA /* LGSideMenuGesturesHandler.m */,
+				F4BFD33E22F1740C00C626EA /* UIViewController+LGSideMenuController.m */,
+				F4BFD33F22F1740C00C626EA /* LGSideMenuHelper.h */,
+				F4BFD34022F1740C00C626EA /* LGSideMenuBorderView.m */,
+			);
+			path = LGSideMenuController;
+			sourceTree = "<group>";
+		};
+		F4BFD34122F1740C00C626EA /* OperatingControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4BFD34222F1740C00C626EA /* ViewController.swift */,
+				F4BFD34322F1740C00C626EA /* LeftViewController.swift */,
+				F4BFD34422F1740C00C626EA /* OtherViewController.swift */,
+				F4BFD34522F1740C00C626EA /* MainViewController.swift */,
+				F4BFD34622F1740C00C626EA /* ChooseNavigationController.swift */,
+				F4BFD34722F1740C00C626EA /* TableViewController.swift */,
+				F4BFD34822F1740C00C626EA /* LeftViewCell.swift */,
+				F4BFD34922F1740C00C626EA /* NavigationController.swift */,
+			);
+			path = OperatingControllers;
+			sourceTree = "<group>";
+		};
+		F4C4F37523E5A3E600ACC3F5 /* CustomTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				F4C4F37823E5A41200ACC3F5 /* HHButton+Extension.swift */,
+				F4C4F37723E5A41200ACC3F5 /* HHTabBarView.swift */,
+				F4C4F37623E5A41200ACC3F5 /* HHTabButton.swift */,
+				F4C4F37923E5A41200ACC3F5 /* HHTabLabel.swift */,
+			);
+			path = CustomTabbar;
+			sourceTree = "<group>";
+		};
+		F4D89D6C2334AB2800BC1016 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				F4DB4A2E23F6DF10002B673E /* DatabaseManager.swift */,
+				F4D89D6D2334AB6F00BC1016 /* GISWebServicesManager.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F477655922E82608000E1FCC /* TestSpatialite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F477657022E82612000E1FCC /* Build configuration list for PBXNativeTarget "TestSpatialite" */;
+			buildPhases = (
+				8CFE45D19F944764A577DBF8 /* [CP] Check Pods Manifest.lock */,
+				F477655622E82608000E1FCC /* Sources */,
+				F477655722E82608000E1FCC /* Frameworks */,
+				F477655822E82608000E1FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestSpatialite;
+			productName = TestSpatialite;
+			productReference = F477655A22E82608000E1FCC /* TestSpatialite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F477655222E82608000E1FCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Gaurav;
+				TargetAttributes = {
+					F477655922E82608000E1FCC = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F477655522E82608000E1FCC /* Build configuration list for PBXProject "TestSpatialite" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F477655122E82608000E1FCC;
+			productRefGroup = F477655B22E82608000E1FCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F477655922E82608000E1FCC /* TestSpatialite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F477655822E82608000E1FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40E9FF123C08BA7006C83B4 /* map.js in Resources */,
+				F477656A22E82612000E1FCC /* LaunchScreen.storyboard in Resources */,
+				F40E9FEF23C08BA7006C83B4 /* index.html in Resources */,
+				F4765B69231D4F1900ECB4D5 /* Assets.xcassets in Resources */,
+				F40E9FF023C08BA7006C83B4 /* ol.js in Resources */,
+				F412DA3C233CE8D9005B3A75 /* GISdb.sqlite in Resources */,
+				F41084282313D6B7005C661E /* SF-Pro-Text-Medium.otf in Resources */,
+				F40E9FEE23C08BA7006C83B4 /* map.css in Resources */,
+				F459C8952301A2FC0094E50C /* SF-Pro-Text-Regular.otf in Resources */,
+				F409FFFE22F84E0000414CC0 /* KMLeftPanelViewController.xib in Resources */,
+				5333C517243220A600F4329B /* ol.css in Resources */,
+				F417F8D92421E5D100749382 /* SF-Pro-Text-Bold.otf in Resources */,
+				F477656522E82608000E1FCC /* Main.storyboard in Resources */,
+				F410D1E422F05B6000BB2295 /* GISAddLayersViewController.xib in Resources */,
+				F40BEEBF230682A400F94886 /* SF-Pro-Text-Semibold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CFE45D19F944764A577DBF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestSpatialite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F477655622E82608000E1FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BFD35122F1740C00C626EA /* ViewController.swift in Sources */,
+				F46108A623BB47970059BCDC /* CustomOTPTypeView.swift in Sources */,
+				F43CD27223EC098A006F3248 /* SegmentedViewController.swift in Sources */,
+				F4BFD35A22F1763500C626EA /* GISSplashScreenViewControllerSwift.swift in Sources */,
+				F4C4F37A23E5A41200ACC3F5 /* HHTabButton.swift in Sources */,
+				F4C4F37C23E5A41200ACC3F5 /* HHButton+Extension.swift in Sources */,
+				F4950E6722EED1BC007E41A4 /* UIViewController+REFrostedViewController.m in Sources */,
+				F4950E6E22EED314007E41A4 /* UIColor+ColorCatagory.m in Sources */,
+				F410D1E322F05B6000BB2295 /* GISAddLayersViewController.m in Sources */,
+				F4BFD35522F1740C00C626EA /* ChooseNavigationController.swift in Sources */,
+				F4BFD35722F1740C00C626EA /* LeftViewCell.swift in Sources */,
+				5317B8A623FD319200C39E7B /* LocateOnMapViewController.swift in Sources */,
+				F43CD27923EC34BA006F3248 /* CustomStoreTableViewCell.swift in Sources */,
+				F4BFD34A22F1740C00C626EA /* LGSideMenuHelper.m in Sources */,
+				F4BFD35622F1740C00C626EA /* TableViewController.swift in Sources */,
+				F4BFD34D22F1740C00C626EA /* LGSideMenuController.m in Sources */,
+				F4950E6622EED1BC007E41A4 /* UIView+REFrostedViewController.m in Sources */,
+				F4CA3EAB23EA97530026F165 /* KhadiStoreListViewController.swift in Sources */,
+				53C112DD23F2BC3B0003DD46 /* AlertView.swift in Sources */,
+				F4BFD32422F1610700C626EA /* GISMapMainViewController.swift in Sources */,
+				F409FFFF22F84E0000414CC0 /* KMNavigationViewController.m in Sources */,
+				F4C4F36B23E5907200ACC3F5 /* GISSignInViewController.swift in Sources */,
+				53568FFC23EAC3C200AE71A4 /* GISDownloadedImage.swift in Sources */,
+				53BD9CD723FBE822006E1858 /* InputTextField.swift in Sources */,
+				539D48A023E83E4600ABF1AA /* MarginSelectView.swift in Sources */,
+				53364DC123E1A1EC00133E65 /* InspectionFormViewController.swift in Sources */,
+				53C112D923F2A5510003DD46 /* PreviewViewController.swift in Sources */,
+				F46A189F23BA33A50053E224 /* CustomComboBoxView.swift in Sources */,
+				F461089F23BB23270059BCDC /* CustomTextField.swift in Sources */,
+				F4BFD32B22F173C300C626EA /* SingletonClassSwift.swift in Sources */,
+				5317B8A823FD5C5A00C39E7B /* VerificationData.swift in Sources */,
+				F46108A823BB59080059BCDC /* CustomInputTextView.swift in Sources */,
+				F4CA3EA923EA84EF0026F165 /* KhadiProductView.swift in Sources */,
+				F4BFD35422F1740C00C626EA /* MainViewController.swift in Sources */,
+				F477656222E82608000E1FCC /* ViewController.m in Sources */,
+				F43CD27023EC098A006F3248 /* StretchableHeaderView.swift in Sources */,
+				F4281C8F23BC6FFA00316FA3 /* CustomButton.swift in Sources */,
+				F4C4F36923E579B300ACC3F5 /* CustomImageButton.swift in Sources */,
+				5325065F23E440AC00B42014 /* CustomLabel.swift in Sources */,
+				F4BFD34B22F1740C00C626EA /* LGSideMenuView.m in Sources */,
+				F4950E4A22EEC701007E41A4 /* GISMainViewController.m in Sources */,
+				F46108A423BB47640059BCDC /* DPOTPView.swift in Sources */,
+				F432587223E8205C00DAEC4F /* CustomButtonData.swift in Sources */,
+				F4BFD35022F1740C00C626EA /* LGSideMenuBorderView.m in Sources */,
+				F4950E6922EED1BC007E41A4 /* UIImage+REFrostedViewController.m in Sources */,
+				53CAA18E23F15BBF00AA7807 /* Layer_MultiMedia.swift in Sources */,
+				53568FFE23EAC63100AE71A4 /* CustomButtonImageOrDocument.swift in Sources */,
+				F4BFD32E22F173C300C626EA /* GeneralConstants.swift in Sources */,
+				F4BFD35822F1740C00C626EA /* NavigationController.swift in Sources */,
+				F4C64F9323FD4510007A5A19 /* MarkAsnottracebleView.swift in Sources */,
+				F4C4F36723E5766B00ACC3F5 /* LoginUserSelectionViewController.swift in Sources */,
+				F4BFD35222F1740C00C626EA /* LeftViewController.swift in Sources */,
+				F46A189D23BA32A00053E224 /* CustomTextFieldForAttribute.swift in Sources */,
+				F46A18A123BA35740053E224 /* DropDownPickerView.swift in Sources */,
+				53002F6E23F519F6007AB404 /* VerificationDetailViewController.swift in Sources */,
+				F423DF8D23FAAAD2009EB957 /* VideoHelper.swift in Sources */,
+				F46108AA23BB59320059BCDC /* CustomTextView.swift in Sources */,
+				F4DB4A2F23F6DF10002B673E /* DatabaseManager.swift in Sources */,
+				F4BFD35322F1740C00C626EA /* OtherViewController.swift in Sources */,
+				F43CD27623EC1286006F3248 /* PendingKhadiStoresListTableViewController.swift in Sources */,
+				F4BFD34E22F1740C00C626EA /* LGSideMenuGesturesHandler.m in Sources */,
+				F409FFFD22F84E0000414CC0 /* KMLeftPanelViewController.m in Sources */,
+				F43CD27123EC098A006F3248 /* SegmentedControl.swift in Sources */,
+				533952FD2404F76500E80763 /* CustomTap.swift in Sources */,
+				F46A189723BA07DA0053E224 /* KVICAppDelegate.m in Sources */,
+				F4950E6822EED1BC007E41A4 /* REFrostedContainerViewController.m in Sources */,
+				F4457E09234B6901001E6BD1 /* SingletonViewControllerClassSwift.swift in Sources */,
+				F4950E6A22EED1BC007E41A4 /* RECommonFunctions.m in Sources */,
+				F4C4F37D23E5A41200ACC3F5 /* HHTabLabel.swift in Sources */,
+				F4D89D6E2334AB6F00BC1016 /* GISWebServicesManager.swift in Sources */,
+				F4490ACD23BF46D20018A6F0 /* GISViewController.swift in Sources */,
+				F461089D23BB1EEA0059BCDC /* CustomInputFieldView.swift in Sources */,
+				F477656D22E82612000E1FCC /* main.mm in Sources */,
+				F4950E5622EECE88007E41A4 /* SingletonClass.m in Sources */,
+				53BF810323FFA5470011C251 /* Extension.swift in Sources */,
+				F46108A123BB24FA0059BCDC /* GenderView.swift in Sources */,
+				F46A189B23BA28A00053E224 /* KVICApplicationFormIndividualViewController.swift in Sources */,
+				F4C4F37B23E5A41200ACC3F5 /* HHTabBarView.swift in Sources */,
+				F432587023E7F5B900DAEC4F /* KhadiUnitCollectionViewCell.swift in Sources */,
+				F4950E6522EED1BC007E41A4 /* REFrostedViewController.m in Sources */,
+				F4BFD34C22F1740C00C626EA /* LGSideMenuSegue.m in Sources */,
+				53568FFA23EAC24C00AE71A4 /* GISImageDataTypeView.swift in Sources */,
+				F4BFD34F22F1740C00C626EA /* UIViewController+LGSideMenuController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F477656322E82608000E1FCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F477656422E82608000E1FCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F477656822E82612000E1FCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F477656922E82612000E1FCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F477656E22E82612000E1FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F477656F22E82612000E1FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F477657122E82612000E1FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5D81AEBBFB733758024695 /* Pods-TestSpatialite.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SG3KCU48ZD;
+				GCC_PREFIX_HEADER = /Users/gunjanraval/Desktop/Nascent/KVIC/TestSpatialite/TestSpatialite/Common/GISPrefixHeader.pch;
+				INFOPLIST_FILE = TestSpatialite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"FMDB\"",
+					"-l\"geos\"",
+					"-l\"iconv\"",
+					"-l\"proj4\"",
+					"-l\"spatialite\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nascentinfo.KVIC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F477657222E82612000E1FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FDF275412372F966446D403 /* Pods-TestSpatialite.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SG3KCU48ZD;
+				GCC_PREFIX_HEADER = /Users/gunjanraval/Desktop/Nascent/KVIC/TestSpatialite/TestSpatialite/Common/GISPrefixHeader.pch;
+				INFOPLIST_FILE = TestSpatialite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"FMDB\"",
+					"-l\"geos\"",
+					"-l\"iconv\"",
+					"-l\"proj4\"",
+					"-l\"spatialite\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nascentinfo.KVIC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F477655522E82608000E1FCC /* Build configuration list for PBXProject "TestSpatialite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F477656E22E82612000E1FCC /* Debug */,
+				F477656F22E82612000E1FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F477657022E82612000E1FCC /* Build configuration list for PBXNativeTarget "TestSpatialite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F477657122E82612000E1FCC /* Debug */,
+				F477657222E82612000E1FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F477655222E82608000E1FCC /* Project object */;
+}
